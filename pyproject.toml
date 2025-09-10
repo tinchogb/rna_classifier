@@ -7,7 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "jupyter-book==2.0.0b3",
     "jupyterlab>=4.4.6",
-    "obonet>=1.1.1",
     "pandas>=2.3.2",
     "ruff>=0.12.10",
 ]
