@@ -16,7 +16,13 @@ Go to the [UV installation guide](https://docs.astral.sh/uv/getting-started/inst
 ```bash
 git clone <repository-url>; cd <repository-name>
 ```
-#### Step 2 (this will create a virtual environment and install the dependencies)
+
+#### Step 2
+```bash
+source .venv/bin/activate
+```
+
+#### Step 3 (this will create a virtual environment and install the dependencies)
 ```bash
 uv sync
 ```
