@@ -17,12 +17,7 @@ Go to the [UV installation guide](https://docs.astral.sh/uv/getting-started/inst
 git clone <repository-url>; cd <repository-name>
 ```
 
-#### Step 2
-```bash
-source .venv/bin/activate
-```
-
-#### Step 3 (this will create a virtual environment and install the dependencies)
+#### Step 2 (this will create a virtual environment and install the dependencies)
 ```bash
 uv sync
 ```
@@ -31,6 +26,11 @@ uv sync
 After cloning the repository and installing the dependencies, go to the repository folder
 ```bash
 cd <repository-name>
+```
+
+and activate the virtual environment:
+```bash
+source .venv/bin/activate
 ```
 
 Then, open the notebook using Jupyter Lab or from VS Code.
